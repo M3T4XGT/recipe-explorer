@@ -1,0 +1,16 @@
+{
+  "name": "recipe-explorer",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run server --prefix backend\" \"npm start --prefix frontend\""
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^7.6.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12"
+  },
+  "dependencies": {
+    "axios": "^1.11.0"
+  }
+}
